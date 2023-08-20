@@ -8,7 +8,7 @@ import {
 } from "react-icons/fi";
 export default function Navbar() {
     return (
-        <div className="m-auto rounded-2xl bg-white items-center flex justify-between flex-row max-w-7xl py-4 pr-3 sm:p-3">
+        <div className="m-auto rounded-2xl bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] items-center flex justify-between flex-row max-w-7xl py-4 pr-3 sm:p-3">
             <div className="hidden lg:flex">
                 <h1 className=" font-bold text-4xl">GD</h1>
             </div>
