@@ -6,8 +6,28 @@ import {
     PiFileTextThin,
     PiTwitterLogoThin,
 } from "react-icons/pi";
+import { Chip } from "@nextui-org/react";
 import Link from "next/link";
+import {
+    TbBrandHtml5,
+    TbBrandCss3,
+    TbBrandJavascript,
+    TbBrandBootstrap,
+    TbBrandPython,
+    TbBrandReact,
+    TbBrandNextjs,
+    TbBrandMongodb,
+    TbSql,
+    TbBrandFigma,
+    TbBrandTailwind,
+    TbNetwork,
+    TbDatabase,
+} from "react-icons/tb";
+import { DiNodejsSmall, DiLinux } from "react-icons/di";
+import { SiMui, SiSystem76, SiCodeforces, SiPandas } from "react-icons/si";
 import { Tooltip } from "@nextui-org/react";
+import { FiCloud } from "react-icons/fi";
+import Education from "@/components/education";
 
 export default function Home() {
     return (
@@ -120,7 +140,7 @@ export default function Home() {
                     <h1 className=" text-4xl mb-5 text-center  sm:text-6xl font-bold mt-5">
                         Little Bit About Me ...
                     </h1>
-                    <h1 className="sm:w-4/6 text-lg font-mono">
+                    <h1 className="sm:w-4/6 text-lg font-mono opacity-60">
                         Let me give you a short intro about myself. I’m Gaurav
                         Dhyani, Software Engineer, a passionated FullStack Web
                         Developer and a coffee lover from New Delhi, India. I
@@ -163,7 +183,7 @@ export default function Home() {
                                 <h1 className="font-semibold text-xl">
                                     Problem Solving
                                 </h1>
-                                <h1>
+                                <h1 className="opacity-60">
                                     Innovative problem-solving and impactful
                                     solutions for a better experience.
                                 </h1>
@@ -181,7 +201,7 @@ export default function Home() {
                                 <h1 className="font-semibold text-xl">
                                     Analytical Abilities
                                 </h1>
-                                <h1>
+                                <h1 className="opacity-60">
                                     Abilities to diagnose technology issues and
                                     fix them.
                                 </h1>
@@ -201,7 +221,7 @@ export default function Home() {
                                 <h1 className="font-semibold text-xl">
                                     Project Management
                                 </h1>
-                                <h1>
+                                <h1 className="opacity-60">
                                     Ability to make professional plans, set and
                                     reach goals.
                                 </h1>
@@ -219,7 +239,7 @@ export default function Home() {
                                 <h1 className="font-semibold text-xl">
                                     Curiosity
                                 </h1>
-                                <h1>
+                                <h1 className="opacity-60">
                                     Finding enjoyment in learning new things and
                                     learning how things work.
                                 </h1>
@@ -242,108 +262,122 @@ export default function Home() {
                     ></Image>
                     <h1 className="opacity-50 text-xl mb-5">Tools Section</h1>
                     <h1 className="text-4xl sm:text-6xl font-bold">
-                        Tools and Software
+                        Technical Skills
                     </h1>
                 </div>
-                <div className="flex flex-col rounded-3xl bg-[#eceff3] border text-center">
+                <div className="flex flex-col rounded-3xl mx-4 sm:m-auto sm:w-5/6 bg-[#eceff3] border text-center">
                     <div className="rounded-t-3xl bg-orange-600 text-center w-full">
-                        <h1 className="text-white ">
-                            Here are the tools and software I use
+                        <h1 className="text-white p-2 sm:p-0">
+                            Here are the Languages and Software I use
                         </h1>
                     </div>
-                    <div className="flex flex-warp sm:flex-row">
-                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
-                            <Image
-                                className="m-auto mb-2"
-                                width={50}
-                                height={50}
-                                src="/javascript.svg"
-                            />
-                            <h1>JavaScript</h1>
-                        </div>
-                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
-                            <Image
-                                className="m-auto mb-2"
-                                width={50}
-                                height={50}
-                                src="/python.svg"
-                            />
-                            <h1>Python</h1>
-                        </div>
-                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
-                            <Image
-                                className="m-auto mb-2"
-                                width={50}
-                                height={50}
-                                src="/nodejs.svg"
-                            />
-                            <h1>Node Js</h1>
-                        </div>
-                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
-                            <Image
-                                className="m-auto mb-2"
-                                width={50}
-                                height={50}
-                                src="/react.svg"
-                            />
-                            <h1>React Js</h1>
-                        </div>
-                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
-                            <Image
-                                className="m-auto mb-2"
-                                width={50}
-                                height={50}
-                                src="/express.svg"
-                            />
-                            <h1>Express</h1>
-                        </div>
-                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
-                            <Image
-                                className="m-auto mb-2"
-                                width={50}
-                                height={50}
-                                src="/letter-n.svg"
-                            />
-                            <h1>Next Js</h1>
-                        </div>
-                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
-                            <Image
-                                className="m-auto mb-2"
-                                width={50}
-                                height={50}
-                                src="/mongodb.svg"
-                            />
-                            <h1>MongoDb</h1>
-                        </div>
-                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
-                            <Image
-                                className="m-auto mb-2"
-                                width={50}
-                                height={50}
-                                src="/figma.svg"
-                            />
-                            <h1>Figma</h1>
-                        </div>
-                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
-                            <Image
-                                className="m-auto mb-2"
-                                width={50}
-                                height={50}
-                                src="/tailwind-css.svg"
-                            />
-                            <h1>Tailwind CSS</h1>
-                        </div>
-                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
-                            <Image
-                                className="m-auto mb-2"
-                                width={50}
-                                height={50}
-                                src="/sql.svg"
-                            />
-                            <h1>SQL</h1>
-                        </div>
+                    <div className="flex items-center flex-wrap gap-3 px-3 py-5 sm:p-5">
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <TbBrandHtml5 size={25} />
+                            HTML
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <TbBrandCss3 size={25} />
+                            CSS
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <TbBrandJavascript size={25} />
+                            JavaScript
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <TbBrandBootstrap size={25} />
+                            Bootstrap
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <SiMui size={20} />
+                            MUi
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <TbBrandPython size={25} />
+                            Python
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <SiPandas size={25} />
+                            Pandas
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <FiCloud size={25} />
+                            Cloud
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <DiNodejsSmall size={25} />
+                            Node Js
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <TbBrandReact size={25} />
+                            React Js
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <TbBrandHtml5 size={25} />
+                            Express
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <TbBrandNextjs size={25} />
+                            Next Js
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <TbBrandMongodb size={25} />
+                            MongoDb
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <TbBrandFigma size={25} />
+                            Figma
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <TbBrandTailwind size={25} />
+                            Tailwind CSS
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <TbSql size={25} />
+                            SQL
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <TbNetwork size={25} />
+                            Network
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <DiLinux size={25} />
+                            Linux
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <TbDatabase size={25} />
+                            DataBase Management System
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <SiSystem76 size={25} />
+                            Operating System
+                        </h1>
+                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                            <SiCodeforces size={25} />
+                            DataStructures and Algorithm
+                        </h1>
                     </div>
                 </div>
+            </section>
+
+            {/* section 5*/}
+            <section className="bg-white rounded-3xl py-10 mt-10 flex flex-col">
+                <div className="flex flex-col sm:mb-16 w-full text-center mb-5">
+                    <Image
+                        className="m-auto"
+                        src="/edu.svg"
+                        width={100}
+                        height={100}
+                        alt="png"
+                    ></Image>
+                    <h1 className="opacity-50 text-xl mb-5">
+                        Background Section
+                    </h1>
+                    <h1 className="text-4xl sm:text-6xl font-bold">
+                        Education and Career
+                    </h1>
+                </div>
+                <Education/>
             </section>
         </main>
     );
