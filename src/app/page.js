@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import {
     PiGithubLogoThin,
@@ -6,6 +7,8 @@ import {
     PiTwitterLogoThin,
 } from "react-icons/pi";
 import Link from "next/link";
+import { Tooltip } from "@nextui-org/react";
+
 export default function Home() {
     return (
         <main className="flex flex-col min-h-screen max-w-7xl m-auto mt-5">
@@ -103,7 +106,7 @@ export default function Home() {
 
             {/* SECITON2 */}
             <section className="py-10 rounded-3xl mt-10 bg-white p-5">
-                <div className="flex flex-col mb-5 sm:mb-16 text-center">
+                <div className="flex flex-col  sm:mb-16 text-center">
                     <Image
                         className="m-auto"
                         src="/about.svg"
@@ -111,7 +114,7 @@ export default function Home() {
                         height={100}
                         alt="png"
                     ></Image>
-                    <h1 className="opacity-50 hidden sm:block text-xl">About Me</h1>
+                    <h1 className="opacity-50 text-xl">About Section</h1>
                 </div>
                 <div className="flex flex-col sm:flex-row  rounded-3xl m-auto w-fit">
                     <h1 className=" text-4xl mb-5 text-center  sm:text-6xl font-bold mt-5">
@@ -131,6 +134,215 @@ export default function Home() {
                         main focus is to bring profit to both the business owner
                         and customer.
                     </h1>
+                </div>
+            </section>
+
+            {/* section3 */}
+            <section className="bg-white mt-10 rounded-3xl py-10">
+                <div className="flex flex-col mb-5 sm:mb-16 text-center px-4">
+                    <Image
+                        className="m-auto"
+                        src="/skills.svg"
+                        width={100}
+                        height={100}
+                        alt="png"
+                    ></Image>
+                    <h1 className="opacity-50 text-xl">SKILLS SECTION</h1>
+                    <h1 className="text-4xl mb-5  sm:mb-14 text-center  sm:text-6xl font-bold mt-5">
+                        Skills and Expertise
+                    </h1>
+                    <div className="flex flex-col sm:flex-row mb-5 sm:w-2/3 m-auto gap-5">
+                        <div className="border rounded-3xl w-full flex p-3 gap-5">
+                            <Image
+                                src="/problem.svg"
+                                height={60}
+                                width={60}
+                                alt-="png"
+                            />
+                            <div className="text-left">
+                                <h1 className="font-semibold text-xl">
+                                    Problem Solving
+                                </h1>
+                                <h1>
+                                    Innovative problem-solving and impactful
+                                    solutions for a better experience.
+                                </h1>
+                                <h1></h1>
+                            </div>
+                        </div>
+                        <div className="border rounded-3xl w-full flex p-3 gap-5">
+                            <Image
+                                src="/self.svg"
+                                height={60}
+                                width={60}
+                                alt-="png"
+                            />
+                            <div className="text-left">
+                                <h1 className="font-semibold text-xl">
+                                    Analytical Abilities
+                                </h1>
+                                <h1>
+                                    Abilities to diagnose technology issues and
+                                    fix them.
+                                </h1>
+                                <h1></h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex flex-col sm:flex-row sm:w-2/3  m-auto gap-5">
+                        <div className="border rounded-3xl w-full flex p-3 gap-5">
+                            <Image
+                                src="/Visual.svg"
+                                height={60}
+                                width={60}
+                                alt-="png"
+                            />
+                            <div className="text-left">
+                                <h1 className="font-semibold text-xl">
+                                    Project Management
+                                </h1>
+                                <h1>
+                                    Ability to make professional plans, set and
+                                    reach goals.
+                                </h1>
+                                <h1></h1>
+                            </div>
+                        </div>
+                        <div className="border rounded-3xl w-full flex p-3 gap-5">
+                            <Image
+                                src="/pres.svg"
+                                height={60}
+                                width={60}
+                                alt-="png"
+                            />
+                            <div className="text-left">
+                                <h1 className="font-semibold text-xl">
+                                    Curiosity
+                                </h1>
+                                <h1>
+                                    Finding enjoyment in learning new things and
+                                    learning how things work.
+                                </h1>
+                                <h1></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* section 4 */}
+            <section className="bg-white rounded-3xl mt-10 py-10 flex flex-col">
+                <div className="flex flex-col sm:mb-16 w-full text-center mb-5">
+                    <Image
+                        className="m-auto"
+                        src="/tools.svg"
+                        width={100}
+                        height={100}
+                        alt="png"
+                    ></Image>
+                    <h1 className="opacity-50 text-xl mb-5">Tools Section</h1>
+                    <h1 className="text-4xl sm:text-6xl font-bold">
+                        Tools and Software
+                    </h1>
+                </div>
+                <div className="flex flex-col rounded-3xl bg-[#eceff3] border text-center">
+                    <div className="rounded-t-3xl bg-orange-600 text-center w-full">
+                        <h1 className="text-white ">
+                            Here are the tools and software I use
+                        </h1>
+                    </div>
+                    <div className="flex flex-warp sm:flex-row">
+                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
+                            <Image
+                                className="m-auto mb-2"
+                                width={50}
+                                height={50}
+                                src="/javascript.svg"
+                            />
+                            <h1>JavaScript</h1>
+                        </div>
+                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
+                            <Image
+                                className="m-auto mb-2"
+                                width={50}
+                                height={50}
+                                src="/python.svg"
+                            />
+                            <h1>Python</h1>
+                        </div>
+                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
+                            <Image
+                                className="m-auto mb-2"
+                                width={50}
+                                height={50}
+                                src="/nodejs.svg"
+                            />
+                            <h1>Node Js</h1>
+                        </div>
+                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
+                            <Image
+                                className="m-auto mb-2"
+                                width={50}
+                                height={50}
+                                src="/react.svg"
+                            />
+                            <h1>React Js</h1>
+                        </div>
+                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
+                            <Image
+                                className="m-auto mb-2"
+                                width={50}
+                                height={50}
+                                src="/express.svg"
+                            />
+                            <h1>Express</h1>
+                        </div>
+                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
+                            <Image
+                                className="m-auto mb-2"
+                                width={50}
+                                height={50}
+                                src="/letter-n.svg"
+                            />
+                            <h1>Next Js</h1>
+                        </div>
+                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
+                            <Image
+                                className="m-auto mb-2"
+                                width={50}
+                                height={50}
+                                src="/mongodb.svg"
+                            />
+                            <h1>MongoDb</h1>
+                        </div>
+                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
+                            <Image
+                                className="m-auto mb-2"
+                                width={50}
+                                height={50}
+                                src="/figma.svg"
+                            />
+                            <h1>Figma</h1>
+                        </div>
+                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
+                            <Image
+                                className="m-auto mb-2"
+                                width={50}
+                                height={50}
+                                src="/tailwind-css.svg"
+                            />
+                            <h1>Tailwind CSS</h1>
+                        </div>
+                        <div className="bg-white flex flex-col text-center p-3 rounded-3xl">
+                            <Image
+                                className="m-auto mb-2"
+                                width={50}
+                                height={50}
+                                src="/sql.svg"
+                            />
+                            <h1>SQL</h1>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
