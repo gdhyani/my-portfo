@@ -33,7 +33,7 @@ export default function Home() {
     return (
         <main className="flex flex-col min-h-screen max-w-7xl m-auto mt-5">
             {/* first section */}
-            <section className="flex flex-col sm:h-[450px] sm:flex-row gap-5">
+            <section className=" mx-4 md:mx-0 flex flex-col sm:h-[450px] sm:flex-row gap-5">
                 <div className="bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-2xl px-7 flex flex-col pb-5">
                     <Image
                         className="m-auto"
@@ -125,7 +125,7 @@ export default function Home() {
             </section>
 
             {/* SECITON2 */}
-            <section className="py-10 rounded-3xl mt-10 bg-white  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] p-5">
+            <section className="mx-4 md:mx-0 py-10 rounded-3xl mt-10 bg-white  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] p-5">
                 <div className="flex flex-col  sm:mb-16 text-center">
                     <Image
                         className="m-auto"
@@ -158,7 +158,7 @@ export default function Home() {
             </section>
 
             {/* section3 */}
-            <section className="bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] mt-10 rounded-3xl py-10">
+            <section className="mx-4 md:mx-0 bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] mt-10 rounded-3xl py-10">
                 <div className="flex flex-col mb-5 sm:mb-16 text-center px-4">
                     <Image
                         className="m-auto"
@@ -251,7 +251,7 @@ export default function Home() {
             </section>
 
             {/* section 4 */}
-            <section className="bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-3xl mt-10 py-10 flex flex-col">
+            <section className= "mx-4 md:mx-0 bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-3xl mt-10 py-10 flex flex-col">
                 <div className="flex flex-col sm:mb-16 w-full text-center mb-5">
                     <Image
                         className="m-auto"
@@ -361,7 +361,7 @@ export default function Home() {
             </section>
 
             {/* section 5*/}
-            <section className="bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-3xl py-10 mt-10 flex flex-col">
+            <section className="mx-4 md:mx-0 bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-3xl py-10 mt-10 flex flex-col">
                 <div className="flex flex-col sm:mb-16 w-full text-center mb-5">
                     <Image
                         className="m-auto"

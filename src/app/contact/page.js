@@ -12,8 +12,8 @@ export default function Contact() {
         console.log({ name, email, mess });
     }
     return (
-        <main className="flex flex-col min-h-screen max-w-7xl m-auto mt-10">
-            <section className="flex flex-col">
+        <main className="flex flex-col min-h-screen max-w-7xl m-auto mt-5">
+            <section className="mx-4 md:mx-0 flex flex-col">
                 <div className="text-center bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-2xl py-14">
                     <Image
                         className="m-auto"
@@ -70,7 +70,7 @@ export default function Contact() {
                 </div>
             </section>
 
-            <section className="mt-5 py-5">
+            <section className=" mx-4 md:mx-0 mt-5 py-5">
                 <div className="flex flex-col px-3 gap-5 py-3 sm:flex-row items-center bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-2xl">
                     <div className="flex flex-col px-5 md:rounded-2xl border-b-1 md:text-center sm:w-1/4 py-5 md:border w-full ">
                         <h1 className="opacity-50 text-lg">Email </h1>
