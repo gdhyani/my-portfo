@@ -36,10 +36,10 @@ export default function Home() {
             <section className="flex flex-col sm:h-[450px] sm:flex-row gap-5">
                 <div className="bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-2xl px-7 flex flex-col pb-5">
                     <Image
-                        className="m-auto -mb-6"
-                        src="/4.svg"
-                        height={200}
-                        width={200}
+                        className="m-auto"
+                        src="/main.svg"
+                        height={380}
+                        width={380}
                         alt="pnh"
                     ></Image>
                     <h1 className="text-3xl sm:text-5xl text-center mb-2 sm:mb-4 font-bold">
