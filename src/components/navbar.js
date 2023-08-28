@@ -55,32 +55,32 @@ export default function Navbar() {
                     <div className="flex gap-1 pl-1 w-1/2 items-center">
                         
                         <Link
-                            className={`px-3 m-auto py-2 font-bold  hover:bg-slate-100 transition-all rounded-full ${pathname==="/"?"opacity:100":"opacity-50"}`}
+                            className={`px-3 m-auto py-2 font-bold transition-all rounded-full ${pathname==="/"?"opacity:100":"opacity-50"}`}
                             href="/"
                         >
                             <FiHome size={25} />
                         </Link>
                         <Link
-                            className={`px-3 m-auto py-2 font-bold  hover:bg-slate-100 transition-all rounded-full ${pathname==="/about"?"opacity:100":"opacity-50"}`}
+                            className={`px-3 m-auto py-2 font-bold transition-all rounded-full ${pathname==="/about"?"opacity:100":"opacity-50"}`}
                             href="/about"
                         >
                             <FiUser size={25} />
                         </Link>
                         <Link
-                            className={`px-3 m-auto py-2 font-bold  hover:bg-slate-100 transition-all rounded-full ${pathname==="/work"?"opacity:100":"opacity-50"}`}
+                            className={`px-3 m-auto py-2 font-bold transition-all rounded-full ${pathname==="/work"?"opacity:100":"opacity-50"}`}
                             href="/work"
                         >
                             <FiBriefcase size={25} />
                         </Link>
                         {/* <Link
-                        className="px-3 m-auto py-2 font-bold  hover:bg-slate-100 transition-all rounded-full"
+                        className="px-3 m-auto py-2 font-bold transition-all rounded-full"
                         href="/blog"
                     >
                         <FiBookmark size={25} />
                     </Link> */}
                     </div>
                     <Link
-                        className="bg-black text-white px-4 py-2 rounded-md flex items-center gap-2"
+                        className="bg-white text-black px-4 py-2 rounded-md flex items-center gap-2"
                         href="/contact"
                     >
                         <FiLink2 size={15} />
