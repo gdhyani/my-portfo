@@ -6,7 +6,7 @@ export default function App() {
         <div className="flex mx-5 sm:w-2/6 sm:m-auto flex-col">
             <Tabs className="flex flex-col" aria-label="Options">
                 <Tab className="text-lg" key="photos" title="Education">
-                    <div className="bg-[#f4f4f5] flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
+                    <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
                         <div className="flex opacity-50">
                             <TbSchool size={50} />
                         </div>
@@ -21,7 +21,7 @@ export default function App() {
                             <h1 className="opacity-50 text-md">2020-2024</h1>
                         </div>
                     </div>
-                    <div className="bg-[#f4f4f5] flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
+                    <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
                         <div className="flex opacity-50">
                             <TbSchool size={50} />
                         </div>
@@ -35,7 +35,7 @@ export default function App() {
                             <h1 className="opacity-50 text-md">2020</h1>
                         </div>
                     </div>
-                    <div className="bg-[#f4f4f5] flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
+                    <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
                         <div className="flex opacity-50">
                             <TbSchool size={50} />
                         </div>
@@ -51,7 +51,7 @@ export default function App() {
                     </div>
                 </Tab>
                 <Tab className="text-lg" key="music" title="Certi">
-                <div className="bg-[#f4f4f5] flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
+                <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
                         <div className="flex opacity-50">
                             <TbCertificate size={50} />
                         </div>
@@ -65,7 +65,7 @@ export default function App() {
                             <h1 className="opacity-50 text-md">2021</h1>
                         </div>
                     </div>
-                    <div className="bg-[#f4f4f5] flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
+                    <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
                         <div className="flex opacity-50">
                             <TbCertificate size={50} />
                         </div>
@@ -79,7 +79,7 @@ export default function App() {
                             <h1 className="opacity-50 text-md">2021</h1>
                         </div>
                     </div>
-                    <div className="bg-[#f4f4f5] flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
+                    <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
                         <div className="flex opacity-50">
                             <TbCertificate size={50} />
                         </div>
@@ -93,7 +93,7 @@ export default function App() {
                             <h1 className="opacity-50 text-md">2021</h1>
                         </div>
                     </div>
-                    <div className="bg-[#f4f4f5] flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
+                    <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
                         <div className="flex opacity-50">
                             <TbCertificate size={50} />
                         </div>
@@ -110,7 +110,7 @@ export default function App() {
                     
                 </Tab>
                 <Tab className="text-lg" key="videos" title="Career">
-                <div className="bg-[#f4f4f5] flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
+                <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
                         <div className="flex opacity-50">
                             <MdOutlineWorkOutline size={50} />
                         </div>
@@ -124,7 +124,7 @@ export default function App() {
                             <h1 className="opacity-50 text-md">2022-Present</h1>
                         </div>
                     </div>
-                    <div className="bg-[#f4f4f5] flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
+                    <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
                         <div className="flex opacity-50">
                             <MdOutlineWorkOutline size={50} />
                         </div>

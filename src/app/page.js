@@ -34,7 +34,7 @@ export default function Home() {
         <main className="flex flex-col min-h-screen max-w-7xl m-auto mt-5">
             {/* first section */}
             <section className=" mx-4 md:mx-0 flex flex-col sm:h-[450px] sm:flex-row gap-5">
-                <div className="bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-2xl px-7 flex flex-col pb-5">
+                <div className="bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-2xl px-7 flex flex-col pb-5">
                     <Image
                         className="m-auto"
                         src="/main.svg"
@@ -42,15 +42,15 @@ export default function Home() {
                         width={380}
                         alt="pnh"
                     ></Image>
-                    <h1 className="text-3xl sm:text-5xl text-center mb-2 sm:mb-4 font-bold">
-                        I'm Gaurav Dhyani
+                    <h1 className="text-3xl sm:text-4xl max-w-lg text-center mb-2 sm:mb-4 font-bold">
+                        Gaurav Dhyani<span className="ml-2 text-3xl sm:text-4xl opacity-40 text-center">
+                        a Software Engineer and a FullStack Web Developer.
+                    </span>
                     </h1>
-                    <h1 className="text-lg opacity-50 text-center">
-                        A Software Engineer and a FullStack Web Developer.
-                    </h1>
+                    
                 </div>
                 <div className="flex flex-col gap-4">
-                    <div className="bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-2xl py-7 px-5 flex flex-row justify-between items-center">
+                    <div className="bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-2xl py-7 px-5 flex flex-row justify-between items-center">
                         <div className="">
                             <h1 className="text-xl font-semibold opacity-40">
                                 Title
@@ -72,20 +72,20 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-around">
-                        <div className="bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] hover:bg-black hover:text-white rounded-3xl p-4">
+                        <div className="bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] hover:bg-black hover:text-white rounded-3xl p-4">
                             <PiGithubLogoThin size={50} />
                         </div>
-                        <div className="bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] hover:bg-[#0a66c2] hover:text-white rounded-3xl p-4">
+                        <div className="bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] hover:bg-[#0a66c2] hover:text-white rounded-3xl p-4">
                             <PiLinkedinLogoThin size={50} />
                         </div>
-                        <div className="bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] hover:bg-[#38bdf8] hover:text-white rounded-3xl p-4">
+                        <div className="bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] hover:bg-[#38bdf8] hover:text-white rounded-3xl p-4">
                             <PiTwitterLogoThin size={50} />
                         </div>
-                        <div className="bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] hover:bg-[#e11d48] hover:text-white rounded-3xl p-4">
+                        <div className="bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] hover:bg-[#e11d48] hover:text-white rounded-3xl p-4">
                             <PiFileTextThin size={50} />
                         </div>
                     </div>
-                    <div className="bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-2xl py-8 px-5 flex flex-row justify-between items-center">
+                    <div className="bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-2xl py-8 px-5 flex flex-row justify-between items-center">
                         <div className="">
                             <h1 className="text-xl font-semibold opacity-40">
                                 Based In
@@ -106,7 +106,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-2xl gap-2 py-10 px-5 flex flex-col justify-between   text-center">
+                <div className="bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-2xl gap-2 py-10 px-5 flex flex-col justify-between   text-center">
                     <Image
                         className="self-center"
                         src="/work.svg"
@@ -125,7 +125,7 @@ export default function Home() {
             </section>
 
             {/* SECITON2 */}
-            <section className="mx-4 md:mx-0 py-10 rounded-3xl mt-10 bg-white  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] p-5">
+            <section className="mx-4 md:mx-0 py-10 rounded-3xl mt-10 bg-[#131315] text-white  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] p-5">
                 <div className="flex flex-col  sm:mb-16 text-center">
                     <Image
                         className="m-auto"
@@ -158,7 +158,7 @@ export default function Home() {
             </section>
 
             {/* section3 */}
-            <section className="mx-4 md:mx-0 bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] mt-10 rounded-3xl py-10">
+            <section className="mx-4 md:mx-0 bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] mt-10 rounded-3xl py-10">
                 <div className="flex flex-col mb-5 sm:mb-16 text-center px-4">
                     <Image
                         className="m-auto"
@@ -251,7 +251,7 @@ export default function Home() {
             </section>
 
             {/* section 4 */}
-            <section className= "mx-4 md:mx-0 bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-3xl mt-10 py-10 flex flex-col">
+            <section className= "mx-4 md:mx-0 bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-3xl mt-10 py-10 flex flex-col">
                 <div className="flex flex-col sm:mb-16 w-full text-center mb-5">
                     <Image
                         className="m-auto"
@@ -265,94 +265,94 @@ export default function Home() {
                         Technical Skills
                     </h1>
                 </div>
-                <div className="flex flex-col rounded-3xl mx-4 sm:m-auto sm:w-5/6 bg-[#eceff3] border text-center">
+                <div className="flex flex-col rounded-3xl mx-4 sm:m-auto sm:w-5/6 border text-center">
                     <div className="rounded-t-3xl bg-orange-600 text-center w-full">
                         <h1 className="text-white p-2 sm:p-0">
                             Here are the Languages and Software I use
                         </h1>
                     </div>
                     <div className="flex items-center flex-wrap gap-3 px-3 py-5 sm:p-5">
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <TbBrandHtml5 size={25} />
                             HTML
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <TbBrandCss3 size={25} />
                             CSS
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <TbBrandJavascript size={25} />
                             JavaScript
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <TbBrandBootstrap size={25} />
                             Bootstrap
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <SiMui size={20} />
                             MUi
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <TbBrandPython size={25} />
                             Python
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <SiPandas size={25} />
                             Pandas
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <FiCloud size={25} />
                             Cloud
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <DiNodejsSmall size={25} />
                             Node Js
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <TbBrandReact size={25} />
                             React Js
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <TbBrandHtml5 size={25} />
                             Express
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <TbBrandNextjs size={25} />
                             Next Js
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <TbBrandMongodb size={25} />
                             MongoDb
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <TbBrandFigma size={25} />
                             Figma
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <TbBrandTailwind size={25} />
                             Tailwind CSS
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <TbSql size={25} />
                             SQL
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <TbNetwork size={25} />
                             Network
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <DiLinux size={25} />
                             Linux
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <TbDatabase size={25} />
                             DataBase Management System
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <SiSystem76 size={25} />
                             Operating System
                         </h1>
-                        <h1 className="bg-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
+                        <h1 className="bg-[#131315] text-white flex items-center text-lg px-3 py-1 rounded-3xl border-orange-600 border-2 gap-2 opacity-70">
                             <SiCodeforces size={25} />
                             DataStructures and Algorithm
                         </h1>
@@ -361,7 +361,7 @@ export default function Home() {
             </section>
 
             {/* section 5*/}
-            <section className="mx-4 md:mx-0 bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-3xl py-10 mt-10 flex flex-col">
+            <section className="mx-4 md:mx-0 bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-3xl py-10 mt-10 flex flex-col">
                 <div className="flex flex-col sm:mb-16 w-full text-center mb-5">
                     <Image
                         className="m-auto"
