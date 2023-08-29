@@ -21,7 +21,7 @@ export default function Navbar() {
             <div className="h-20 bg-black"></div>
             <div className="mx-4 md:mx-auto relative -top-16  rounded-2xl bg-[#131315] shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] items-center flex justify-between flex-row max-w-7xl py-4 pr-3 sm:p-3">
                 <div className="hidden lg:flex">
-                    <h1 className=" font-bold text-4xl">GD</h1>
+                    <h1 className="ml-5 font-bold text-4xl">GD</h1>
                 </div>
                 <div className="hidden lg:flex gap-4">
                     {navlinks.map((el) => (

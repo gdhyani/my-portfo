@@ -31,7 +31,7 @@ import Education from "@/components/education";
 
 export default function Home() {
     return (
-        <main className="flex flex-col min-h-screen max-w-7xl m-auto mt-5">
+        <main className="flex flex-col min-h-screen max-w-7xl m-auto sm:mt-5">
             {/* first section */}
             <section className=" mx-4 md:mx-0 flex flex-col sm:h-[450px] sm:flex-row gap-5">
                 <div className="bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-2xl px-7 flex flex-col pb-5">
