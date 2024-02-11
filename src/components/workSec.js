@@ -6,7 +6,7 @@ export default function WorkSec(){
         <main>
             <section className="mx-4 sm:mx-0">
                 <Link
-                    href="/"
+                    href="https://www.github.com/gdhyani"
                     className=" group rounded-2xl sm:w-full md:mx-0 flex flex-col bg-[#131315]"
                 >
                     <div className="flex flex-col relative px-3">
@@ -50,7 +50,7 @@ export default function WorkSec(){
             </section>
             <section className="mx-4 sm:mx-0 mt-5">
                 <Link
-                    href="/"
+                    href="https://www.github.com/gdhyani"
                     className=" group rounded-2xl sm:w-full md:mx-0 flex flex-col bg-[#131315]"
                 >
                     <div className="flex flex-col relative px-3">
@@ -95,7 +95,7 @@ export default function WorkSec(){
             </section>
             <section className="flex mx-4 md:mx-0 md:flex-row flex-col gap-5 mt-5 text-white">
                 <div className="flex px-1 pb-3 sm:w-1/2 rounded-2xl bg-[#131315]">
-                    <Link className="group flex flex-col px-2" href="/">
+                    <Link className="group flex flex-col px-2" href="https://www.github.com/gdhyani">
                         <div className="flex items-center flex-row my-10 justify-between">
                             <div className="flex flex-col ml-6 sm:ml-10">
                                 <h1 className="text-3xl font-semibold">
@@ -131,7 +131,7 @@ export default function WorkSec(){
                     </Link>
                 </div>
                 <div className="flex px-1 pb-3 sm:w-1/2 rounded-2xl bg-[#131315]">
-                    <Link className="group flex flex-col px-2" href="/">
+                    <Link className="group flex flex-col px-2" href="https://www.github.com/gdhyani">
                         <div className="flex items-center flex-row my-10 justify-between">
                             <div className="flex flex-col  ml-6 sm:ml-10">
                                 <h1 className="text-3xl font-semibold">

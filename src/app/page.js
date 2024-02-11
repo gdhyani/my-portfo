@@ -56,16 +56,16 @@ export default function Home() {
                     </div>
                     <div className="flex flex-row justify-around">
                         <div className="bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] hover:bg-black hover:text-white rounded-3xl p-4">
-                            <PiGithubLogoThin size={50} />
+                            <Link href="https://www.github.com/gdhyani"><PiGithubLogoThin size={50} /></Link>
                         </div>
                         <div className="bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] hover:bg-[#0a66c2] hover:text-white rounded-3xl p-4">
-                            <PiLinkedinLogoThin size={50} />
+                            <Link href="https://www.linkedin.com/in/gaurav-dhyani-/" ><PiLinkedinLogoThin size={50} /></Link>
                         </div>
                         <div className="bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] hover:bg-[#38bdf8] hover:text-white rounded-3xl p-4">
                             <PiTwitterLogoThin size={50} />
                         </div>
                         <div className="bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] hover:bg-[#e11d48] hover:text-white rounded-3xl p-4">
-                            <PiFileTextThin size={50} />
+                            <Link href="https://drive.google.com/file/d/1K16SdD8-v_sTL4KNTMu5WiYLRPJqPvQO/view?usp=sharing"><PiFileTextThin size={50} /></Link>
                         </div>
                     </div>
                     <div className="bg-[#131315] text-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-2xl py-8 px-5 flex flex-row justify-between items-center">
@@ -100,7 +100,7 @@ export default function Home() {
                     <h1 className="text-4xl font-bold">Wanna work together?</h1>
                     <Link
                         className="py-4 bg-orange-600 text-xl rounded-3xl text-white font-bold"
-                        href="/"
+                        href="/contact"
                     >
                         Lets Start
                     </Link>

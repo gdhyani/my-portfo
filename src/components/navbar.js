@@ -1,5 +1,4 @@
 "use client";
-
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import {
@@ -17,9 +16,9 @@ const navlinks = [
 export default function Navbar() {
     const pathname = usePathname();
     return (
-        <div className="text-white sticky top-0 z-50 -mb-12 sm:-mb-14">
+        <div className="text-white sticky top-0 z-50 -mb-12 sm:-mb-14 ">
             <div className="h-20 bg-black"></div>
-            <div className="mx-4 md:mx-auto relative -top-16  rounded-2xl bg-[#131315] shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] items-center flex justify-between flex-row max-w-7xl py-4 pr-3 sm:p-3">
+            <div className="mx-4 md:mx-auto relative -top-16  rounded-2xl bg-[#131315] items-center flex justify-between flex-row max-w-7xl py-4 pr-3 sm:p-3 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]">
                 <div className="hidden lg:flex">
                     <h1 className="ml-5 font-bold text-4xl">GD</h1>
                 </div>
