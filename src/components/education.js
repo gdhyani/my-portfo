@@ -26,9 +26,7 @@ export default function App() {
                             <TbSchool size={50} />
                         </div>
                         <div className="flex flex-col w-10/12">
-                            <h1 className="text-xl">
-                                Senior Year (12th)
-                            </h1>
+                            <h1 className="text-xl">Senior Year (12th)</h1>
                             <h1 className="opacity-50 text-xl">
                                 Sant Gyaneshwar Model School
                             </h1>
@@ -40,9 +38,7 @@ export default function App() {
                             <TbSchool size={50} />
                         </div>
                         <div className="flex flex-col w-10/12">
-                            <h1 className="text-xl">
-                                Junior Year (10th)
-                            </h1>
+                            <h1 className="text-xl">Junior Year (10th)</h1>
                             <h1 className="opacity-50 text-xl">
                                 Jindal Public School
                             </h1>
@@ -51,18 +47,25 @@ export default function App() {
                     </div>
                 </Tab>
                 <Tab className="text-lg" key="music" title="Certi">
-                <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
+                    <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
                         <div className="flex opacity-50">
                             <TbCertificate size={50} />
                         </div>
                         <div className="flex flex-col w-10/12">
-                            <h1 className="text-xl">
-                                Complete Web Developer Bootcamp
-                            </h1>
-                            <h1 className="opacity-50 text-xl">
-                                Udemy
-                            </h1>
-                            <h1 className="opacity-50 text-md">2021</h1>
+                            <h1 className="text-xl">Google Generative AI</h1>
+                            <h1 className="opacity-50 text-xl">Google</h1>
+                            <h1 className="opacity-50 text-md">2024</h1>
+                        </div>
+                    </div>
+
+                    <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
+                        <div className="flex opacity-50">
+                            <TbCertificate size={50} />
+                        </div>
+                        <div className="flex flex-col w-10/12">
+                            <h1 className="text-xl">Complete React Course</h1>
+                            <h1 className="opacity-50 text-xl">Udemy</h1>
+                            <h1 className="opacity-50 text-md">2023</h1>
                         </div>
                     </div>
                     <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
@@ -73,10 +76,18 @@ export default function App() {
                             <h1 className="text-xl">
                                 Advanced JavaScript Bootcamp
                             </h1>
-                            <h1 className="opacity-50 text-xl">
-                                Udemy
-                            </h1>
-                            <h1 className="opacity-50 text-md">2021</h1>
+                            <h1 className="opacity-50 text-xl">Udemy</h1>
+                            <h1 className="opacity-50 text-md">2022</h1>
+                        </div>
+                    </div>
+                    <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
+                        <div className="flex opacity-50">
+                            <TbCertificate size={50} />
+                        </div>
+                        <div className="flex flex-col w-10/12">
+                            <h1 className="text-xl">Python Bootcamp</h1>
+                            <h1 className="opacity-50 text-xl">Udemy</h1>
+                            <h1 className="opacity-50 text-md">2022</h1>
                         </div>
                     </div>
                     <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
@@ -85,56 +96,44 @@ export default function App() {
                         </div>
                         <div className="flex flex-col w-10/12">
                             <h1 className="text-xl">
-                                Python Bootcamp
+                                Complete Web Developer Bootcamp
                             </h1>
-                            <h1 className="opacity-50 text-xl">
-                                Udemy
-                            </h1>
+                            <h1 className="opacity-50 text-xl">Udemy</h1>
                             <h1 className="opacity-50 text-md">2021</h1>
                         </div>
                     </div>
-                    <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
-                        <div className="flex opacity-50">
-                            <TbCertificate size={50} />
-                        </div>
-                        <div className="flex flex-col w-10/12">
-                            <h1 className="text-xl">
-                                Complete React Course
-                            </h1>
-                            <h1 className="opacity-50 text-xl">
-                                Udemy
-                            </h1>
-                            <h1 className="opacity-50 text-md">2021</h1>
-                        </div>
-                    </div>
-                    
                 </Tab>
                 <Tab className="text-lg" key="videos" title="Career">
-                <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
+                    <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
                         <div className="flex opacity-50">
                             <MdOutlineWorkOutline size={50} />
                         </div>
                         <div className="flex flex-col w-10/12">
                             <h1 className="text-xl">
-                                Freelancing
+                                Full Stack Developer Intern
                             </h1>
-                            <h1 className="opacity-50 text-xl">
-                                Remote
-                            </h1>
+                            <h1 className="opacity-50 text-xl">SocialMore</h1>
+                            <h1 className="opacity-50 text-md">2023</h1>
+                        </div>
+                    </div>
+                    <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
+                        <div className="flex opacity-50">
+                            <MdOutlineWorkOutline size={50} />
+                        </div>
+                        <div className="flex flex-col w-10/12">
+                            <h1 className="text-xl">Freelancing</h1>
+                            <h1 className="opacity-50 text-xl">Remote</h1>
                             <h1 className="opacity-50 text-md">2022-Present</h1>
                         </div>
                     </div>
+
                     <div className="bg-transparent flex flex-row gap-4 p-2 items-center rounded-2xl border my-4">
                         <div className="flex opacity-50">
                             <MdOutlineWorkOutline size={50} />
                         </div>
                         <div className="flex flex-col w-10/12">
-                            <h1 className="text-xl">
-                                Web Developer Intern
-                            </h1>
-                            <h1 className="opacity-50 text-xl">
-                                Netcogs
-                            </h1>
+                            <h1 className="text-xl">Web Developer Intern</h1>
+                            <h1 className="opacity-50 text-xl">Netcogs</h1>
                             <h1 className="opacity-50 text-md">2021</h1>
                         </div>
                     </div>

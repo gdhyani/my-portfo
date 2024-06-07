@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FiArrowUpRight } from "react-icons/fi";
-export default function WorkSec(){
-    return(
+export default function WorkSec() {
+    return (
         <main>
             <section className="mx-4 sm:mx-0">
                 <Link
@@ -13,14 +13,14 @@ export default function WorkSec(){
                         <div className="flex sm:flex-row sm:items-center flex-col my-10 px-5 md:px-16 justify-between">
                             <div className="flex sm:gap-2 px-1 sm:px-0 flex-col">
                                 <h1 className="text-3xl sm:text-5xl font-semibold ">
-                                    C-Dashboard
+                                    CodeCloudAi
                                 </h1>
                                 <h1 className="text-xl font-medium opacity-50">
-                                    Enterprise Resource Planning System
+                                    Online Ai powered Coding Platform
                                 </h1>
                             </div>
                             <h1 className="text-xl px-1 sm:px-0 mt-5 sm:mt-0 font-medium ">
-                                a dashboard that can manage 5000+ users at once.
+                                write code faster and better with AI.
                             </h1>
                             <button className="hidden transition-all group-hover:bg-[#131324] sm:block p-6 rounded-full bg-white">
                                 <FiArrowUpRight
@@ -32,7 +32,7 @@ export default function WorkSec(){
                         <div className=" max-w-full min-h-full rounded-2xl max-h-full sm:mb-6 overflow-hidden sm:mx-3">
                             <Image
                                 className=" overflow-hidden h-80 sm:h-auto object-cover min-w-full group-hover:scale-105 transition-all  rounded-2xl"
-                                src="/dashboard.jpg"
+                                src="/codecloud.jpg"
                                 height={1000}
                                 width={1000}
                                 alt="img"
@@ -47,8 +47,7 @@ export default function WorkSec(){
                         </div>
                     </div>
                 </Link>
-            </section>
-            <section className="mx-4 sm:mx-0">
+            </section><section className="mx-4 sm:mx-0 mt-5">
                 <Link
                     href="https://www.github.com/gdhyani"
                     className=" group rounded-2xl sm:w-full md:mx-0 flex flex-col bg-[#131315]"
@@ -139,7 +138,10 @@ export default function WorkSec(){
             </section>
             <section className="flex mx-4 md:mx-0 md:flex-row flex-col gap-5 mt-5 text-white">
                 <div className="flex px-1 pb-3 sm:w-1/2 rounded-2xl bg-[#131315]">
-                    <Link className="group flex flex-col px-2" href="https://www.github.com/gdhyani">
+                    <Link
+                        className="group flex flex-col px-2"
+                        href="https://www.github.com/gdhyani"
+                    >
                         <div className="flex items-center flex-row my-10 justify-between">
                             <div className="flex flex-col ml-6 sm:ml-10">
                                 <h1 className="text-3xl font-semibold">
@@ -175,7 +177,10 @@ export default function WorkSec(){
                     </Link>
                 </div>
                 <div className="flex px-1 pb-3 sm:w-1/2 rounded-2xl bg-[#131315]">
-                    <Link className="group flex flex-col px-2" href="https://www.github.com/gdhyani">
+                    <Link
+                        className="group flex flex-col px-2"
+                        href="https://www.github.com/gdhyani"
+                    >
                         <div className="flex items-center flex-row my-10 justify-between">
                             <div className="flex flex-col  ml-6 sm:ml-10">
                                 <h1 className="text-3xl font-semibold">
@@ -212,5 +217,5 @@ export default function WorkSec(){
                 </div>
             </section>
         </main>
-    )
+    );
 }

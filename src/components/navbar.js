@@ -20,7 +20,7 @@ export default function Navbar() {
             <div className="h-20 bg-black"></div>
             <div className="mx-4 md:mx-auto relative -top-16  rounded-2xl bg-[#131315] items-center flex justify-between flex-row max-w-7xl py-4 pr-3 sm:p-3 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]">
                 <div className="hidden lg:flex">
-                    <h1 className="ml-5 font-bold text-4xl">GD</h1>
+                    <Link href="/" className="ml-5 font-bold text-4xl">GD</Link>
                 </div>
                 <div className="hidden lg:flex gap-4">
                     {navlinks.map((el) => (
